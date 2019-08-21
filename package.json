@@ -1,18 +1,24 @@
 
 {
   "name": "react-native-action-sheet-ios",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Custom ActionSheet for iOS",
   "main": "index.js",
+  "homepage": "https://github.com/welldsagl/react-native-action-sheet-ios",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "Amedeo Zucchetti, Gabriele Prestifilippo",
+  "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
-  }
+    "react-native": "^0.59.1"
+  },
+  "files": [
+    "ios",
+    "index.js",
+    "react-native-action-sheet-ios.podspec"
+  ]
 }
