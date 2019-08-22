@@ -5,11 +5,13 @@
 
 `$ yarn add react-native-action-sheet-ios`
 
-### Mostly automatic installation
+For `react-native` versions >= 0.60, no extra steps are needed to install the package
+
+### Automatic installation (RN < 0.60)
 
 `$ react-native link react-native-action-sheet-ios`
 
-### Manual installation
+### Manual installation (RN < 0.60)
 
 
 #### iOS
@@ -45,4 +47,3 @@ ActionSheetIOS.showActionSheetWithOptions(
 // Hide the current action sheet
 ActionSheetIOS.dismiss();
 ```
-  
