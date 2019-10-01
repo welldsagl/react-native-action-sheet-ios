@@ -1,13 +1,10 @@
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+#if __has_include("RCTBridgeModule.h")
+#import "RCTBridgeModule.h"
+#else
+#import <React/RCTBridgeModule.h>
+#endif
 
 #import <UIKit/UIKit.h>
-
-#import <React/RCTBridge.h>
 
 @interface RNActionSheetIOS : NSObject <RCTBridgeModule>
 
